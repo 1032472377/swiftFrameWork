@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04993B4820C5168000FC0A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993B4720C5168000FC0A49 /* AppDelegate.swift */; };
+		04993B4D20C5168000FC0A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04993B4B20C5168000FC0A49 /* Main.storyboard */; };
+		04993B4F20C5168000FC0A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04993B4E20C5168000FC0A49 /* Assets.xcassets */; };
+		04993B5220C5168000FC0A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04993B5020C5168000FC0A49 /* LaunchScreen.storyboard */; };
+		04993B5D20C5168100FC0A49 /* MiGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993B5C20C5168100FC0A49 /* MiGoTests.swift */; };
+		04993B6820C5168100FC0A49 /* MiGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993B6720C5168100FC0A49 /* MiGoUITests.swift */; };
+		04993B7620C5174500FC0A49 /* MXSMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993B7520C5174500FC0A49 /* MXSMainViewController.swift */; };
+		04993B7820C5175000FC0A49 /* MXSFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993B7720C5175000FC0A49 /* MXSFindViewController.swift */; };
+		04993B7A20C5176800FC0A49 /* MXSShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993B7920C5176800FC0A49 /* MXSShopViewController.swift */; };
+		04993B7C20C5177100FC0A49 /* MXSMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993B7B20C5177100FC0A49 /* MXSMyViewController.swift */; };
+		04993B7E20C5179400FC0A49 /* MXSTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993B7D20C5179400FC0A49 /* MXSTabViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04993B5920C5168100FC0A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04993B3C20C5168000FC0A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04993B4320C5168000FC0A49;
+			remoteInfo = MiGo;
+		};
+		04993B6420C5168100FC0A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04993B3C20C5168000FC0A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04993B4320C5168000FC0A49;
+			remoteInfo = MiGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04993B4420C5168000FC0A49 /* MiGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04993B4720C5168000FC0A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04993B4C20C5168000FC0A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04993B4E20C5168000FC0A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04993B5120C5168000FC0A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04993B5320C5168000FC0A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04993B5820C5168100FC0A49 /* MiGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04993B5C20C5168100FC0A49 /* MiGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiGoTests.swift; sourceTree = "<group>"; };
+		04993B5E20C5168100FC0A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04993B6320C5168100FC0A49 /* MiGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04993B6720C5168100FC0A49 /* MiGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiGoUITests.swift; sourceTree = "<group>"; };
+		04993B6920C5168100FC0A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04993B7520C5174500FC0A49 /* MXSMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXSMainViewController.swift; sourceTree = "<group>"; };
+		04993B7720C5175000FC0A49 /* MXSFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXSFindViewController.swift; sourceTree = "<group>"; };
+		04993B7920C5176800FC0A49 /* MXSShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXSShopViewController.swift; sourceTree = "<group>"; };
+		04993B7B20C5177100FC0A49 /* MXSMyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXSMyViewController.swift; sourceTree = "<group>"; };
+		04993B7D20C5179400FC0A49 /* MXSTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXSTabViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04993B4120C5168000FC0A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04993B5520C5168100FC0A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04993B6020C5168100FC0A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04993B3B20C5168000FC0A49 = {
+			isa = PBXGroup;
+			children = (
+				04993B4620C5168000FC0A49 /* MiGo */,
+				04993B5B20C5168100FC0A49 /* MiGoTests */,
+				04993B6620C5168100FC0A49 /* MiGoUITests */,
+				04993B4520C5168000FC0A49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04993B4520C5168000FC0A49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04993B4420C5168000FC0A49 /* MiGo.app */,
+				04993B5820C5168100FC0A49 /* MiGoTests.xctest */,
+				04993B6320C5168100FC0A49 /* MiGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04993B4620C5168000FC0A49 /* MiGo */ = {
+			isa = PBXGroup;
+			children = (
+				04993B4720C5168000FC0A49 /* AppDelegate.swift */,
+				04993B7520C5174500FC0A49 /* MXSMainViewController.swift */,
+				04993B7720C5175000FC0A49 /* MXSFindViewController.swift */,
+				04993B7920C5176800FC0A49 /* MXSShopViewController.swift */,
+				04993B7B20C5177100FC0A49 /* MXSMyViewController.swift */,
+				04993B7D20C5179400FC0A49 /* MXSTabViewController.swift */,
+				04993B4B20C5168000FC0A49 /* Main.storyboard */,
+				04993B4E20C5168000FC0A49 /* Assets.xcassets */,
+				04993B5020C5168000FC0A49 /* LaunchScreen.storyboard */,
+				04993B5320C5168000FC0A49 /* Info.plist */,
+			);
+			path = MiGo;
+			sourceTree = "<group>";
+		};
+		04993B5B20C5168100FC0A49 /* MiGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04993B5C20C5168100FC0A49 /* MiGoTests.swift */,
+				04993B5E20C5168100FC0A49 /* Info.plist */,
+			);
+			path = MiGoTests;
+			sourceTree = "<group>";
+		};
+		04993B6620C5168100FC0A49 /* MiGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04993B6720C5168100FC0A49 /* MiGoUITests.swift */,
+				04993B6920C5168100FC0A49 /* Info.plist */,
+			);
+			path = MiGoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04993B4320C5168000FC0A49 /* MiGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04993B6C20C5168100FC0A49 /* Build configuration list for PBXNativeTarget "MiGo" */;
+			buildPhases = (
+				04993B4020C5168000FC0A49 /* Sources */,
+				04993B4120C5168000FC0A49 /* Frameworks */,
+				04993B4220C5168000FC0A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiGo;
+			productName = MiGo;
+			productReference = 04993B4420C5168000FC0A49 /* MiGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04993B5720C5168100FC0A49 /* MiGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04993B6F20C5168100FC0A49 /* Build configuration list for PBXNativeTarget "MiGoTests" */;
+			buildPhases = (
+				04993B5420C5168100FC0A49 /* Sources */,
+				04993B5520C5168100FC0A49 /* Frameworks */,
+				04993B5620C5168100FC0A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04993B5A20C5168100FC0A49 /* PBXTargetDependency */,
+			);
+			name = MiGoTests;
+			productName = MiGoTests;
+			productReference = 04993B5820C5168100FC0A49 /* MiGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04993B6220C5168100FC0A49 /* MiGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04993B7220C5168100FC0A49 /* Build configuration list for PBXNativeTarget "MiGoUITests" */;
+			buildPhases = (
+				04993B5F20C5168100FC0A49 /* Sources */,
+				04993B6020C5168100FC0A49 /* Frameworks */,
+				04993B6120C5168100FC0A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04993B6520C5168100FC0A49 /* PBXTargetDependency */,
+			);
+			name = MiGoUITests;
+			productName = MiGoUITests;
+			productReference = 04993B6320C5168100FC0A49 /* MiGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04993B3C20C5168000FC0A49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = MXS;
+				TargetAttributes = {
+					04993B4320C5168000FC0A49 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					04993B5720C5168100FC0A49 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 04993B4320C5168000FC0A49;
+					};
+					04993B6220C5168100FC0A49 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 04993B4320C5168000FC0A49;
+					};
+				};
+			};
+			buildConfigurationList = 04993B3F20C5168000FC0A49 /* Build configuration list for PBXProject "MiGo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04993B3B20C5168000FC0A49;
+			productRefGroup = 04993B4520C5168000FC0A49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04993B4320C5168000FC0A49 /* MiGo */,
+				04993B5720C5168100FC0A49 /* MiGoTests */,
+				04993B6220C5168100FC0A49 /* MiGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04993B4220C5168000FC0A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04993B5220C5168000FC0A49 /* LaunchScreen.storyboard in Resources */,
+				04993B4F20C5168000FC0A49 /* Assets.xcassets in Resources */,
+				04993B4D20C5168000FC0A49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04993B5620C5168100FC0A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04993B6120C5168100FC0A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04993B4020C5168000FC0A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04993B7A20C5176800FC0A49 /* MXSShopViewController.swift in Sources */,
+				04993B7E20C5179400FC0A49 /* MXSTabViewController.swift in Sources */,
+				04993B7620C5174500FC0A49 /* MXSMainViewController.swift in Sources */,
+				04993B7820C5175000FC0A49 /* MXSFindViewController.swift in Sources */,
+				04993B4820C5168000FC0A49 /* AppDelegate.swift in Sources */,
+				04993B7C20C5177100FC0A49 /* MXSMyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04993B5420C5168100FC0A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04993B5D20C5168100FC0A49 /* MiGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04993B5F20C5168100FC0A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04993B6820C5168100FC0A49 /* MiGoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04993B5A20C5168100FC0A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04993B4320C5168000FC0A49 /* MiGo */;
+			targetProxy = 04993B5920C5168100FC0A49 /* PBXContainerItemProxy */;
+		};
+		04993B6520C5168100FC0A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04993B4320C5168000FC0A49 /* MiGo */;
+			targetProxy = 04993B6420C5168100FC0A49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04993B4B20C5168000FC0A49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04993B4C20C5168000FC0A49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04993B5020C5168000FC0A49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04993B5120C5168000FC0A49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04993B6A20C5168100FC0A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04993B6B20C5168100FC0A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04993B6D20C5168100FC0A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PEB3Z7RVXR;
+				INFOPLIST_FILE = MiGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MXS.MiGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04993B6E20C5168100FC0A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PEB3Z7RVXR;
+				INFOPLIST_FILE = MiGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MXS.MiGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04993B7020C5168100FC0A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PEB3Z7RVXR;
+				INFOPLIST_FILE = MiGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MXS.MiGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiGo.app/MiGo";
+			};
+			name = Debug;
+		};
+		04993B7120C5168100FC0A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PEB3Z7RVXR;
+				INFOPLIST_FILE = MiGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MXS.MiGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiGo.app/MiGo";
+			};
+			name = Release;
+		};
+		04993B7320C5168100FC0A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PEB3Z7RVXR;
+				INFOPLIST_FILE = MiGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MXS.MiGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiGo;
+			};
+			name = Debug;
+		};
+		04993B7420C5168100FC0A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PEB3Z7RVXR;
+				INFOPLIST_FILE = MiGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MXS.MiGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04993B3F20C5168000FC0A49 /* Build configuration list for PBXProject "MiGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04993B6A20C5168100FC0A49 /* Debug */,
+				04993B6B20C5168100FC0A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04993B6C20C5168100FC0A49 /* Build configuration list for PBXNativeTarget "MiGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04993B6D20C5168100FC0A49 /* Debug */,
+				04993B6E20C5168100FC0A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04993B6F20C5168100FC0A49 /* Build configuration list for PBXNativeTarget "MiGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04993B7020C5168100FC0A49 /* Debug */,
+				04993B7120C5168100FC0A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04993B7220C5168100FC0A49 /* Build configuration list for PBXNativeTarget "MiGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04993B7320C5168100FC0A49 /* Debug */,
+				04993B7420C5168100FC0A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04993B3C20C5168000FC0A49 /* Project object */;
+}
